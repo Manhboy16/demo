@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trang_chu.css">
+    <link rel="stylesheet" href="trang1phu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <script type="text/javascript" src="trang_chu.js"></script>
+    <header>
+        <div class="bo">
+            <a href=""><img class="logo" src="img/logo.jpg" alt=""></a>
+            <div class="inbutt">
+                <input type="text" placeholder="  Tìm kiếm....">
+                <img class="tk" src="img/timk.jpg" alt="">
+            </div>
+            <img class="lh" src="img/lh.jpg" alt="">
+            <a href="trang_đăng nhập.html"><img class="logo2" src="img/logo_2.jpg" alt=""></a>
+        </div>
+    </header>
+    <nav class="menu">
+        <div class="menuc">
+            <ul class="nav">
+                <li class="css">
+                    <a href="">Phòng khách <i class="bi bi-caret-down"></i> </a>
+                    <ul class="subnav">
+                        <li><a href="sofa.html">Sofa da</a></li>
+                        <li><a href="">Sofa vải</a></li>
+                        <li><a href="">Sofa giường</a></li>
+                        <li><a href="">Bàn trà</a></li>
+                        <li><a href="">Ghết thư giãn</a></li>
+                        <li><a href="">Tủ-Kệ</a></li>
+                    </ul>
+                </li>
+                <div class="cach"></div>
+                <li class="css">
+                    <a href="">Phòng ăn <i class="bi bi-caret-down"></i></a>
+                    <ul class="subnav">
+                        <li><a href="">Bàn ăn thông minh mở rộng</a></li>
+                        <li><a href="">Ghế ăn</a></li>
+                    </ul>
+                </li>
+                <div class="cach"></div>
+                <li class="css">
+                    <a href="">Phòng ngủ <i class="bi bi-caret-down"></i></a>
+                    <ul class="subnav">
+                        <li><a href="">Phòng ngủ người lớn</a></li>
+                        <li><a href="">Phòng ngủ trẻ em</a></li>
+                    </ul>
+                </li>
+                <div class="cach"></div>
+                <li class="css">
+                    <a href="">Trang trí và gia dụng<i class="bi bi-caret-down"></i></a>
+                    <ul class="subnav">
+                        <li><a href="">Tượng trang trí</a></li>
+                        <li><a href="">Trang-Khung ảnh</a></li>
+                        <li><a href="">Lọ trang trí</a></li>
+                        <li><a href="">Đèn trang trí</a></li>
+                        <li><a href="">Thảm</a></li>
+                        <li><a href="">Gối tựa sofa</a></li>
+                    </ul>
+                </li>
+                <div class="cach"></div>
+                <li class="css"><a href="">Thiết kế nội thất</a></li>
+                <div class="cach"></div>
+                <li class="css"><a href="tư_vấn.html">Blog tư vấn</a></li>
+                <div class="cach"></div>
+                <li class="css"><a href="">sản phẩm khuyến mại</a></li>
+            </ul>
+        </div>    
+    </nav>
+    <main>
+        <div class="banner">
+            <img src="img/ch1.jpg" alt="" id="img" onclick="doianh()">
+        </div>
+        <div class="anh">
+            <div class="a_trai">
+                <a href="">
+                    <!-- <h2>Bàn ăn mở rộng</h2>
+                    <h5>Nới rộng kông gian-gắn kết tình cảm</h5> -->
+                    <img class="a1" src="img/p3_ban_an.jpg" alt="">
+                </a>
+                <a href="">
+                    <!-- <h2>Bộ sưu tập bàn trà cao cấp</h2>
+                    <h5>Trọng vẹn một không gian phòng khách trang trọng</h5> -->
+                    <img class="a2" src="img/p3_ban_tra.jpg" alt="">
+                </a>
+            </div>
+            <div class="a_giua">
+                <a href=""><img class="a3" src="img/p3_ach.jpg" alt=""></a>
+            </div>
+            <div class="a_phai">
+                <a href=""><img class="a2" src="img/p3_sofa.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="sp">
+            <div class="tieude">
+                <a href="">
+                    <h3>MỚI NHẤT</h3>
+                </a>
+                <a href="">
+                    <h3>XEM NHIỀU NHẤT</h3>
+                </a>
+            </div>
+            <div class="bo_dssp">
+                <div class="dssp">
+                    <div class="sp1">
+                        <a href=""><img src="img/sp1.jpg" alt="">
+                            <div class="gia">
+                                <a href="">
+                                    <h4>Ghế bọc da</h4>
+                                </a>
+                                <h4>1.410.000 đ</h4>
+                            </div>
+                            <h4 class="sptd">Mã SP:72104114</h4>
+                        </a>
+                    </div>
+                    <div class="sp1">
+                        <a href=""><img src="img/sp2.jpg" alt="">
+                            <div class="gia">
+                                <a href="">
+                                    <h4>Ghế bọc tựa da</h4>
+                                </a>
+                                <h4>1.530.000 đ</h4>
+                            </div>
+                            <h4 class="sptd">Mã SP: 72104098</h4>
+                        </a>
+                    </div>
+                    <div class="sp1">
+                        <a href=""><img src="img/sp3.jpg" alt="">
+                            <h4>Kệ sách 7 tầng 2 ngăn màu tự nhiên- HÀNG CÓ SẴN TẠI SHOWROOM</h4>
+                        </a>
+                    </div>
+                    <div class="sp1">
+                        <a href=""><img src="img/sp4.jpg" alt="">
+                            <h4>Thiết kế nội thất căn hộ 82m2 chung cư Florence Mỹ Đình</h4>
+                        </a>
+                    </div>
+                    <div class="sp1">
+                        <a href=""><img src="img/sp5.jpg" alt="">
+                            <h4>Bàn ăn mở rộng Freya - HÀNG CÓ SẴN TẠI SHOWROOM</h4>
+                        </a>
+                    </div>
+                    <div class="sp1">
+                        <a href=""><img src="img/sp6.jpg" alt="">
+                            <h4>Thiết kế căn hộ 186m2 chung cư The Legend</h4>
+                        </a>
+                    </div>
+                    <div class="sp1">
+                        <a href=""><img src="img/sp7.jpg" alt="">
+                            <h4>Thiết kế nội thất căn hộ 124.6m2 chung cư Premier Berriver Long Biên</h4>
+                        </a>
+                    </div>
+                    <div class="sp1">
+                        <a href=""><img src="img/sp8.jpg" alt="">
+                            <h4>Thiết kế nội thất căn hộ 77m2 chung cư Smart City</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bogoc">
+            <div class="tieude">
+                <a href="">
+                    <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
+                </a>
+                <a href="">
+                    <h3>ẢNH GIAO HÀNG TẠI NHÀ</h3>
+                </a>
+            </div>
+            <div class="gallery">
+                <div class="gallery-container">
+                    <img class="gallery-item gallery-item-1" data-index="1" src="img/nt1.jpg" alt="">
+                    <img class="gallery-item gallery-item-2" data-index="2" src="img/nt2.jpg" alt="">
+                    <img class="gallery-item gallery-item-3" data-index="3" src="img/nt6.jpg" alt="">
+                    <img class="gallery-item gallery-item-4" data-index="4" src="img/nt4.jpg" alt="">
+                    <img class="gallery-item gallery-item-5" data-index="5" src="img/nt5.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="diachi">
+            <img src="img/diachi.jpg" alt="">
+            <div class="all">
+                <div class="nd">
+                    <h5>ĐỊA CHỈ</h5>
+                </div>
+                <h6>Click nút dưới đây để xem địa chỉ cửa hàng Nội thất Nhà Đẹp</h6>
+
+                <a href=""><button>HỆ THỐNG CỬA HÀNG</button></a>
+            </div>
+        </div>
+        <div class="nhadep">
+            <div class="chu">
+                <a href="">
+                    <h3>CẨM NANG NHÀ ĐẸP</h3>
+                </a>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="anhnha1">
+                            <a href=""><img src="img/nhadep1.jpg" alt=""></a>
+                            <div class="ndb">
+                                <a href="">
+                                    <img src="img/cuanha1.jpg" alt="">
+                                    <h5>Tóp 5 mẫu nội thất bàn ăn chỉ có tại Nội Thất Nhà Đẹp</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="anhnha1">
+                            <a href=""><img src="img/nhadep2.jpg" alt=""></a>
+                            <div class="ndb">
+                                <a href="">
+                                    <img src="img/cuanha2.jpg" alt="">
+                                    <h5>Yên tâm say giắc với bí kíp bài trí phòng ngủ theo phong thuỷ</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="anhnha1">
+                            <a href=""><img src="img/nhadep3.jpg" alt=""></a>
+                            <div class="ndb">
+                                <a href="">
+                                    <img src="img/cuanha3.jpg" alt="">
+                                    <h5>THIẾT KẾ NỘI THẤT VỚI GIÁ "0" ĐỒNG</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="anhnha1">
+                            <a href=""><img src="img/nhadep4.jpg" alt=""></a>
+                            <div class="ndb">
+                                <a href="">
+                                    <img src="img/cuanha1.jpg" alt="">
+                                    <h5>TÂN TRANG NHÀ ĐẸP</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="anhnha1">
+                            <a href=""><img src="img/nhadep5.jpg" alt=""></a>
+                            <div class="ndb">
+                                <a href="">
+                                    <img src="img/cuanha1.jpg" alt="">
+                                    <h5>Những tone màu sofa đẹp không thể bỏ qua</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="infor-all">
+            <div class="chu-cuoi">
+                <a href=""><h4>CÁC THƯƠNG HIỆU THUỘC TCT GROUP</h4></a>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="infor-item infor-item1">
+                            <div class="infor-img">
+                                <img src="img/c1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="infor-item infor-item1">
+                            <div class="infor-img">
+                                <img src="img/c2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="infor-item infor-item1">
+                            <div class="infor-img">
+                                <img src="img/c3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="infor-item infor-item1">
+                            <div class="infor-img">
+                                <img src="img/c4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="infor-item infor-item1">
+                            <div class="infor-img">
+                                <img src="img/c5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="infor-item infor-item1">
+                            <div class="infor-img">
+                                <img src="img/c6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="infor-item infor-item1">
+                            <div class="infor-img">
+                                <img src="img/c7.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="infor-item infor-item1">
+                            <div class="infor-img">
+                                <img src="img/c8.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper', {
+            slidesPerView: 3,
+            direction: getDirection(),
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            on: {
+                resize: function () {
+                swiper.changeDirection(getDirection());
+                },
+            },
+            });
+
+            function getDirection() {
+            var windowWidth = window.innerWidth;
+            var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+            return direction;
+            }
+        </script>
+    </main>
+    <footer>
+        <div class="cuoi-all">
+            <div class="nd-trai">
+                <img src="img/logo.jpg" alt="">
+                <h5>Công ty TNHH Thương mại và Nội thất Nhà Đẹp</h5>
+                <p>
+                    Trụ sở: 02 Chương Dương Độ, Hoàn Kiếm, Hà Nội <br>
+                    Hotline: <a href=""> 0906 264 268</a> <br>
+                    Tư vấn thiết kế: <a href=""> 093 636 2998</a> <br>
+                    Email: <a href=""> contact@nhadep.com.vn</a> <br>
+                    Website: <a href="">nhadep.com.vn</a>  <br>
+                    Giấy CNĐKKD : 0104257842 do sở KHĐT TP HN cấp <br>
+                    Ngày: 17/11/2009 - Sửa đổi lần 8 ngày:18/5/2016
+                </p>
+                <div class="div-icon">
+                    <a href="https://www.facebook.com/NoithatnhadepCoLtd/"><img src="img/fb1.jpg" alt=""></a>
+                    <a href="https://www.instagram.com/noi_that_nha_dep/"><img src="img/is1.jpg" alt=""></a>
+                    <a href="https://www.youtube.com/c/noithatnhadep"><img src="img/yt1.jpg" alt=""></a>
+                    <a href="http://online.gov.vn/Home/WebDetails/38913"><img class="tb1" src="img/tb1.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="nd-phai">
+                <div class="nd-phai-dau">
+                    <div class="container">
+                        <h3>VỀ CHÚNG TÔI</h3>
+                        <div class="nd-chu">
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Giớ thiệu</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Hệ thống cửa hàng</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Tin tức</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Galler</a></p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h3>KHUYẾN MẠI</h3>
+                        <div class="nd-chu">
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Sản phẩm khuyến mại</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Tin tức khuyến mại</a></p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h3>DỊCH VỤ KHÁCH HÀNG</h3>
+                        <div class="nd-chu">
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> CLB khách hàng thân thiết</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Thanh toán</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Vận chuyển và lắp đặt</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Bảo hành/bảo trì</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Bảo mật thông tin</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Đổi hàng</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Hỏi/ đáp</a></p>
+                            <p><a href=""><i class="bi bi-caret-right-fill"></i> Chính sách & Quy định chung</a></p>
+                        </div>
+                    </div>
+                </div>   
+                <div class="nd-phai-cuoi">
+                    <h4>Hãy để lại thông tin và nhận những ưu đãi mới nhất từ Nhà Đẹp:</h4>
+                    <div class="inputt-cuoi">
+                        <input type="text" placeholder="  Họ tên*">
+                        <input type="text" placeholder="  SĐT*">
+                        <button><a href="">Gửi ngay</a></button>
+                    </div>
+                </div> 
+            </div>
+        </div> 
+        <h3>Copyright @ 2017 by Nha Dep - All right</h3>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    width: 186px;
+    height: 75px;
+}
+.logo2{
+    width: 400px;
+    height: 75px;
+}
+.inbutt{
+    display: flex;
+}
+.inbutt input{
+    margin-top: 20px;
+    width: 452px;
+    height: 36px;
+    font-size: 20px;
+}
+.inbutt .tk{
+    margin-left: -30px;
+    margin-top: 20px;
+    width: 36px;
+    height: 36px;
+    
+}
+.bo .lh{
+    margin-top: 18px;
+    height: 50px;
+}
+.bo{  
+    margin: 30px auto;
+    width: 1500px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu{
+    height: 50px;
+    background-color:#21459A ;
+    margin-bottom: 30px;
+}
+.menuc{
+    width: 1600px;
+    margin: 0 auto;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.cach{
+    height: 40px;
+    border-right: 1px solid whitesmoke;
+    margin-top: 5px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.nav .css a{
+    position: relative;
+}
+.nav .css a i{
+    position: absolute;
+    top: 1px;
+    margin-left: 5px;
+}
+.nav .css .subnav {
+    display: none;
+    position: absolute;
+    width: 300px;
+    list-style: none;
+}
+.nav .css:hover .subnav{
+    display: block;
+    background-color: whitesmoke
+    
+}
+.nav .css .subnav a:hover{
+    text-decoration: underline;
+    color:#21459A ;
+}
+.nav .css .subnav a{
+    padding: 0 15px;
+    color: black;
+    border: 1px solid rgb(48, 47, 47);
+    text-align: start;
+}
+.nav .css{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.nav  .css  a{
+    color: whitesmoke;
+    font-size: 15px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.nav > .css:hover > a{
+    color: yellow;
+    
+}
+/* thân*/
+.duong_dan{
+    width: 1600px;
+    border-bottom: 1px solid #cccccc;
+    margin: 0 auto;
+}
+.duong_dan .a1{
+    color: #cccccc;
+    font-size: 18px;
+}
+.duong_dan .a2{
+    color: black;
+    font-size: 18px;
+}
+
+/* trai */
+.all{
+    width: 1600px;
+    margin: 15px auto;
+    display: flex;
+}
+.trai{
+    width: 400px;
+}
+.trai .tren .thea{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.trai .tren .thea a{
+    color: black;
+    font-size: 18px;
+}
+.trai .tren .thea a:hover{
+    text-decoration: underline;
+}
+.trai .tren p{
+    font-size: 22px;
+}
+.duoi p{
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.duoi .sp{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    border-top: 1px solid  #cccccc;
+    margin-bottom: 15px;
+}
+.duoi .sp img{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+.duoi .sp .nd1{
+    margin-left: 10px;
+}
+.duoi .sp .nd1 h3 a {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.duoi .sp .nd1 h3{
+    margin-top: 10px;
+    color: #21409a;
+}
+.duoi .sp .nd1 p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/*phai*/
+.phai{
+    margin-left: 20px;
+}
+.phai p{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.tv{
+    width: 1180px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.tv a img{
+    width: 370px;
+    height: 220px;
+}
+.tv-chu{
+    margin-left: 15px;
+}
+.tv-chu >h2{
+    text-transform: uppercase;
+}
+.tv-chu > p{
+    text-transform: none;
+}
+.tv-chu .p1{
+    color:  #cccccc;
+}
+.tv-chu span{
+    color: black;
+}
+.tv-chu .nut{
+    width: 100px;
+    height: 35px;
+    border: 1px solid #90a0cd;
+}
+.tv-chu .nut:hover{
+    background-color: #21409a;
+}
+.tv-chu .nut a{
+    text-transform: uppercase;
+    color: black;
+    line-height: 35px;
+    margin-left: 10px;
+}
+.tv-chu .nut a:hover{
+    color: #ffff;
+}
+.next{
+    display: flex;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 20px;
+}
+.box:hover{
+    background-color: #cccccc;
+}
+.b1{
+    background-color: #21409a;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 20px;
+}
+.logo123{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #cccccc;
+}
+.logo123 img{
+    width: 1140px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/**/
+.cuoi{
+    width: 1600px;
+    margin: 20px auto;
+}
+.nd-cuoi{
+    width: 365px;
+}
+.cuoi .text p{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.cuoi .text{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+.anh12 img{
+    width: 365px;
+    height: 180px;
+}
+.nd12{
+    display: flex;
+}
+.text-o{
+    margin-left: 10px;
+}
+.text-o h5{
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.text-o h5:hover{
+    color: #21409a;
+}
+.text-o p{
+    color: #cccccc;
+    font-size: 18px;
+}
+.text-o span{
+    color: black;
+}
+.all-cuoi12{
+    display: flex;
+    justify-content: space-between;
+}
+/**/
+footer{
+    margin-top: -250px;
+    background-color: #ececec;
+}
+.cuoi-all{
+    display: flex;
+    margin: 0 auto;
+    width: 1600px;
+    margin-top: 350px;
+    border-bottom: 2px solid black;
+}
+.nd-trai{
+    width: 400px;
+}
+.cuoi-all >.nd-trai >img{
+    margin-top: 20px;
+    width: 115px;
+    height: 50px;
+}
+.nd-trai .div-icon img{
+    width: 40px;
+    height: 40px;
+}
+.nd-trai .div-icon .tb1{
+    height: 50px;
+    width: 120px;
+}
+.nd-phai{
+    margin-left: 10px;
+    width: 1200px;
+    margin-bottom: 20px;
+}
+.nd-phai .nd-phai-dau{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+}
+.nd-phai .nd-phai-dau .container{
+    
+    width: 390px;
+}
+.nd-phai .nd-phai-dau .container h3{
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.nd-phai-dau .container .nd-chu{
+    border-top: 1px solid  #a09d9d;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.nd-phai-dau  .container  .nd-chu  p  a {
+    color: black;
+    font-size: 17px;
+}
+.nd-phai-dau  .container  .nd-chu  p{
+    padding: 5px 0;
+}
+.nd-phai-dau > .container > .nd-chu >  p:hover > a{
+    color: blue;
+    text-decoration: underline;
+}
+.nd-phai-cuoi{
+    width: 1200px;
+    margin-top: 15px;
+}
+.nd-phai-cuoi >h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.inputt-cuoi {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputt-cuoi input{
+    width: 520px;
+    height: 50px;
+    font-size: 20px;
+}
+.inputt-cuoi button{
+    width: 115px;
+    height: 50px;
+    font-size: 23px;
+    background-color:  #213f9a;;
+}
+.inputt-cuoi button a{
+    color: #fff201;
+}
+.inputt-cuoi button a:hover{
+    color: whitesmoke;
+}
+footer> h3{
+    margin-left: 150px;
+    padding: 30px 0;
+    color: #8e8787;
+}
+.lhhot > img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 200px;
+   
+}
+.button1{
+    width: 250px;
+    height: 50px;
+    background-color:#213f9a ;
+    text-align: center;
+    border-radius: 20px;
+    font-size:25px;
+    
+}
+.button1 a{
+    color: #fff201;
+}
+.button1 a:hover{
+    color: whitesmoke;
+}
+.button2{
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+.hotline{
+    display: flex;
+}
+.lhhot{
+    
+    margin-left: 1620px;
+}
